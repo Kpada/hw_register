@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks":
+    [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "make -C build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "make clean -C build"
+        }
+    ]
+}

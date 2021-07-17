@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "J-Link",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/HWRegisters.elf",
+            "device": "STM32F103C8",
+            "svdFile": "STM32F103.svd",
+            "interface": "swd",
+
+            "runToEntryPoint": "main",
+
+            "serverpath": "/opt/st/stm32cubeide_1.6.1/plugins/com.st.stm32cube.ide.mcu.externaltools.jlink.linux64_1.6.0.202102121925/tools/bin/JLinkGDBServerCLExe", 
+            "servertype": "jlink",
+        }
+    ]
+}

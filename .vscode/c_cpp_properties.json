@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F1",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "code/inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-g++",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
