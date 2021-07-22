@@ -31,6 +31,15 @@ Led::ConfigOutput();    /* config */
 Led::Set();             /* turn the led on */
 ```
 
+## Hardware
+
+The project was created for my blue STM32F103C8 board, but it won't take long to change it for any other MCU.
+
+You will need:
+ - STM32F103C8 board
+ - Debugger / Flasher (ST-Link, J-Link, etc.)
+
+
 ## How to build (Linux)
 
 Tools:
@@ -43,3 +52,9 @@ cd build
 cmake ..
 make
 ```
+
+## VS code plugins
+ - C/C++
+ - Cortex-Debug
+ - Disassembly Explorer
+ - CMake
